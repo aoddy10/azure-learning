@@ -1,0 +1,30 @@
+# Build output
+bin/
+obj/
+out/
+
+# User/IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output
+TestResults/
+
+# NuGet (optional to ignore, usually keep packages folder out)
+*.nupkg
+*.snupkg
+
+# Azure Functions local secrets/settings
+local.settings.json
+secrets.json
+
+# Logs
+*.log
